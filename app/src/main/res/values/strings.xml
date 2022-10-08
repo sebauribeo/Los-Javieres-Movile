@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Botilleria Los Javieres</string>
+    <string name="promociones">Promociones</string>
+    <string name="todo">TODO</string>
+    <string name="img2">TODO</string>
+    <string name="panel_administrador">Panel administrador</string>
+    <string name="carro_de_compra">Carro de compra</string>
+    <string name="log_in">Log In</string>
+    <string name="productos">Productos</string>
+    <string name="img3">TODO</string>
+    <string name="los_javieres">Los Javieres</string>
+    <string name="img4">TODO</string>
+    <string name="img5">TODO</string>
+    <string name="restaurar_contrase_a">Restaurar Contraseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="email">Email</string>
+    <string name="mail">Email</string>
+</resources>
