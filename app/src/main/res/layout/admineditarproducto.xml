@@ -5,85 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName39"
-        android:layout_width="120dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Producto 6"
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#E1FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName36"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="94dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName38"
+        android:id="@+id/editTextTextPersonName13"
         android:layout_width="37dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName35"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="46dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName40"
-        android:layout_width="32dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="14"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName37"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="237dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#D32F2F"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        tools:layout_editor_absoluteX="344dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#388E3C"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_edit"
-        tools:layout_editor_absoluteX="290dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName36"
-        android:layout_width="120dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Producto 5"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName39"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName33"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="94dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName35"
-        android:layout_width="37dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="5"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName38"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName32"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName26"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="46dp" />
 
@@ -99,6 +42,18 @@
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="237dp" />
 
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Producto 1"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName27"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="94dp" />
+
     <ImageButton
         android:id="@+id/imageButton11"
         android:layout_width="46dp"
@@ -109,29 +64,6 @@
         app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@android:drawable/ic_menu_delete"
         tools:layout_editor_absoluteX="344dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#388E3C"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton12"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_edit"
-        tools:layout_editor_absoluteX="290dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName33"
-        android:layout_width="120dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Producto 4"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName36"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName30"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="94dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName32"
@@ -146,50 +78,38 @@
         tools:layout_editor_absoluteX="46dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName34"
-        android:layout_width="32dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="32"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName37"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName31"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="237dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#D32F2F"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        tools:layout_editor_absoluteX="344dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#388E3C"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton10"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_edit"
-        tools:layout_editor_absoluteX="290dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName30"
+        android:id="@+id/editTextTextPersonName27"
         android:layout_width="120dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Producto 3"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName33"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName27"
+        android:text="Producto 2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName30"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="94dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#388E3C"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="290dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#D32F2F"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/textView53"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="344dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName29"
@@ -203,15 +123,161 @@
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="46dp" />
 
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#D32F2F"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="344dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Eliminar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="186dp" />
+
     <EditText
-        android:id="@+id/editTextTextPersonName31"
+        android:id="@+id/editTextTextPersonName33"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Producto 4"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName36"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName30"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="94dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toStartOf="@+id/textView39"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName30"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Producto 3"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName33"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName27"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="94dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#D32F2F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="344dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName28"
         android:layout_width="32dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="7"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName34"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName28"
+        android:text="4"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName31"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="237dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName35"
+        android:layout_width="37dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="5"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName38"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName32"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName38"
+        android:layout_width="37dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName35"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#388E3C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="290dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#388E3C"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="290dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName36"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Producto 5"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName39"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName33"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="94dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="32dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="5"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName28"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="237dp" />
 
@@ -226,28 +292,39 @@
         app:srcCompat="@android:drawable/ic_menu_delete"
         tools:layout_editor_absoluteX="344dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#388E3C"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton8"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_edit"
-        tools:layout_editor_absoluteX="290dp" />
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar productos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="103dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName27"
-        android:layout_width="120dp"
+        android:id="@+id/editTextTextPersonName40"
+        android:layout_width="32dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Producto 2"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName30"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
+        android:text="14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName37"
         app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="94dp" />
+        tools:layout_editor_absoluteX="237dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#388E3C"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton10"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="290dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName26"
@@ -262,146 +339,28 @@
         tools:layout_editor_absoluteX="46dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName28"
-        android:layout_width="32dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="4"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName31"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="237dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#D32F2F"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        tools:layout_editor_absoluteX="344dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#388E3C"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_edit"
-        tools:layout_editor_absoluteX="290dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/editTextTextPersonName39"
         android:layout_width="120dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Producto 1"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName27"
-        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        android:text="Producto 6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName36"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="94dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
-        android:layout_width="37dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="1"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName26"
-        app:layout_constraintTop_toBottomOf="@+id/textView33"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="46dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName12"
+        android:id="@+id/editTextTextPersonName31"
         android:layout_width="32dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="5"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName28"
-        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        android:text="7"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName34"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName28"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="237dp" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Editar"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="186dp" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Producto"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toStartOf="@+id/textView41"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView33"
-        tools:layout_editor_absoluteY="186dp" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Id"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toStartOf="@+id/textView39"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="186dp" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Stock"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="237dp"
-        tools:layout_editor_absoluteY="186dp" />
-
-    <TextView
-        android:id="@+id/textView53"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:text="Eliminar"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="186dp" />
-
-    <TextView
-        android:id="@+id/textView52"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Editar productos"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="103dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:background="#D32F2F"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
-        app:layout_constraintTop_toBottomOf="@+id/textView53"
-        app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        tools:layout_editor_absoluteX="344dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -414,4 +373,57 @@
         app:srcCompat="@android:drawable/ic_menu_edit"
         tools:layout_editor_absoluteX="290dp" />
 
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#D32F2F"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="344dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Producto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#388E3C"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton12"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="290dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName34"
+        android:layout_width="32dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="32"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName37"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName31"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="237dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

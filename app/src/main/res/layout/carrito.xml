@@ -5,63 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView57"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="48dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <EditText
-        android:id="@+id/editTextNumber18"
-        android:layout_width="90dp"
-        android:layout_height="70dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="473dp"
-        tools:text="$" />
-
-    <EditText
-        android:id="@+id/editTextNumber19"
-        android:layout_width="80dp"
-        android:layout_height="70dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="473dp" />
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="1dp"
+        android:layout_height="729dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="48dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <EditText
-        android:id="@+id/editTextNumber16"
-        android:layout_width="90dp"
-        android:layout_height="70dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="375dp"
-        tools:text="$" />
-
-    <EditText
-        android:id="@+id/editTextNumber17"
-        android:layout_width="80dp"
-        android:layout_height="70dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="375dp" />
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#E6FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/divider2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -74,23 +37,33 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <EditText
-        android:id="@+id/editTextNumber14"
-        android:layout_width="90dp"
-        android:layout_height="70dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="278dp"
-        tools:text="$" />
-
-    <EditText
-        android:id="@+id/editTextNumber15"
+        android:id="@+id/editTextNumber17"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="278dp" />
+        tools:layout_editor_absoluteY="375dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber18"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="473dp"
+        tools:text="$" />
+
+    <EditText
+        android:id="@+id/editTextNumber16"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:text="$" />
 
     <EditText
         android:id="@+id/editTextNumber13"
@@ -102,43 +75,6 @@
         tools:layout_editor_absoluteY="179dp"
         tools:text="$" />
 
-    <TextView
-        android:id="@+id/textView65"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Precio"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="133dp" />
-
-    <TextView
-        android:id="@+id/textView64"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cantidad"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="133dp" />
-
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="1dp"
-        android:layout_height="729dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="1dp" />
-
-    <TextView
-        android:id="@+id/textView54"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Carro de compra"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/divider2"
-        tools:layout_editor_absoluteY="61dp" />
-
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="70dp"
@@ -148,6 +84,25 @@
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="48dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="48dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextNumber19"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="473dp" />
 
     <TextView
         android:id="@+id/textView56"
@@ -178,6 +133,44 @@
         tools:layout_editor_absoluteY="571dp" />
 
     <EditText
+        android:id="@+id/editTextNumber12"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="48dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextNumber14"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="278dp"
+        tools:text="$" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <EditText
         android:id="@+id/editTextNumber11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -190,12 +183,32 @@
         tools:text="$" />
 
     <EditText
-        android:id="@+id/editTextNumber12"
+        android:id="@+id/editTextNumber15"
         android:layout_width="80dp"
         android:layout_height="70dp"
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carro de compra"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/divider2"
+        tools:layout_editor_absoluteY="61dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

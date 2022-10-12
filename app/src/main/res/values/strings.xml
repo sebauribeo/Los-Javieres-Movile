@@ -15,4 +15,12 @@
     <string name="enviar">Enviar</string>
     <string name="email">Email</string>
     <string name="mail">Email</string>
+    <string name="reestablecer">Reestablecer</string>
+    <string name="recordar_contrase_a">Recordar contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="crear_usuario">Crear usuario</string>
+    <string name="crear">Crear</string>
+    <string name="email_login">Email</string>
+    <string name="log_in_login">Log In</string>
 </resources>

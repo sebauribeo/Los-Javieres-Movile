@@ -6,14 +6,38 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:tint="#E6FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        tools:layout_editor_absoluteY="180dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="68dp"
+        android:layout_height="45dp"
+        android:text="Cantidad"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toStartOf="@+id/textView38"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar al carro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button11"
+        tools:layout_editor_absoluteY="538dp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -26,15 +50,15 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Productos"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:id="@+id/textView37"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:text="Precio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="58dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView35"
+        tools:layout_editor_absoluteY="396dp" />
 
     <TextView
         android:id="@+id/textView32"
@@ -58,25 +82,15 @@
         app:layout_constraintStart_toEndOf="@+id/textView32"
         tools:layout_editor_absoluteY="351dp" />
 
-    <Button
-        android:id="@+id/button11"
+    <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Agregar al carro"
-        app:layout_constraintEnd_toStartOf="@+id/button12"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="538dp" />
-
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Agregar al carro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button11"
-        tools:layout_editor_absoluteY="538dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        tools:layout_editor_absoluteY="180dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView35"
@@ -89,27 +103,26 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="396dp" />
 
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="65dp"
-        android:layout_height="40dp"
-        android:text="Precio"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView35"
-        tools:layout_editor_absoluteY="396dp" />
-
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="68dp"
-        android:layout_height="45dp"
-        android:text="Cantidad"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toStartOf="@+id/textView38"
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar al carro"
+        app:layout_constraintEnd_toStartOf="@+id/button12"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="454dp" />
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Productos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="58dp" />
 
     <TextView
         android:id="@+id/textView38"
