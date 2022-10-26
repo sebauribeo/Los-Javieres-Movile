@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/inacap/4to_semestre/Aplicaciones Moviles IoT/Los-Javieres-Movile/app/src/main/res/layout/confirmacionpedido.xml" value="0.25" />
+        <entry key="..\:/perdon pipene/Los-Javieres-Movile/app/src/main/res/layout/confirmacionpedido.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
@@ -13,5 +14,8 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>
