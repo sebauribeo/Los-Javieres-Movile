@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/app/Los-Javieres-Movile/app/src/main/res/layout/admin.xml" value="0.25" />
+        <entry key="..\:/app/Los-Javieres-Movile/app/src/main/res/layout/admineditarusuario.xml" value="0.25" />
+        <entry key="..\:/app/Los-Javieres-Movile/app/src/main/res/layout/confirmacionpedido.xml" value="0.25" />
         <entry key="..\:/inacap/4to_semestre/Aplicaciones Moviles IoT/Los-Javieres-Movile/app/src/main/res/layout/confirmacionpedido.xml" value="0.25" />
         <entry key="..\:/perdon pipene/Los-Javieres-Movile/app/src/main/res/layout/confirmacionpedido.xml" value="0.358695652173913" />
       </map>
